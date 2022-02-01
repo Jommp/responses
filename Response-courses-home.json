@@ -1,0 +1,699 @@
+Response de: /courses/home
+
+{
+  "status": "Ok",
+  "data": {
+    "sliderElements": [
+      {
+        "imgSrc": "site/banner-1.svg",
+        "content": {
+          "title": "Educación <span> online </span>",
+          "shortDescription": "Ockham no es una plataforma, es una nueva propuesta de modelo educativo.",
+          "description": "Te invitamos a conocer nuestros cursos",
+          "goTo": "#main-categories"
+        },
+        "order": 0
+      },
+      {
+        "imgSrc": "site/curso-swift0-slider.svg",
+        "content": {
+          "title": "test-sl",
+          "shortDescription": "probando slider",
+          "description": "test steps slider",
+          "goTo": ""
+        },
+        "order": 1
+      },
+      {
+        "imgSrc": "site/banner-4.svg",
+        "content": {
+          "title": "Aprende de expertos",
+          "shortDescription": "Expertos compartirán su conocimiento, tips y consejos para tu formación.",
+          "description": "Conoce los beneficios de capacitarte con nosotros'",
+          "goTo": "#main-categories"
+        },
+        "order": 2
+      },
+      {
+        "imgSrc": "site/banner-1.svg",
+        "content": {
+          "title": "Trabajo remoto",
+          "shortDescription": ":gafas_de_sol:OWl carousel ",
+          "description": "Prueba slider carousel para home page",
+          "goTo": "/courses/trabajo-remoto"
+        },
+        "order": 4
+      }
+    ],
+    "categories": [
+      {
+        "categoryId": 2,
+        "name": "Diseño",
+        "uri": "designing",
+        "comingSoon": false,
+        "showInHome": false,
+        "active": true
+      },
+      {
+        "categoryId": 3,
+        "name": "Marketing",
+        "uri": "marketing",
+        "comingSoon": false,
+        "showInHome": false,
+        "active": true
+      },
+      {
+        "categoryId": 4,
+        "name": "Desarrollo Móvil",
+        "uri": "mobile",
+        "comingSoon": false,
+        "showInHome": true,
+        "active": true
+      },
+      {
+        "categoryId": 6,
+        "name": "Idiomas",
+        "uri": "languages",
+        "comingSoon": true,
+        "showInHome": false,
+        "active": true
+      },
+      {
+        "categoryId": 7,
+        "name": "Programación",
+        "uri": "programming",
+        "comingSoon": false,
+        "showInHome": false,
+        "active": true
+      },
+      {
+        "categoryId": 8,
+        "name": "Frontend",
+        "uri": "frontend",
+        "comingSoon": false,
+        "showInHome": false,
+        "active": true
+      },
+      {
+        "categoryId": 9,
+        "name": "Android",
+        "uri": "android",
+        "comingSoon": false,
+        "showInHome": false,
+        "active": true
+      }
+    ],
+    "carousels": [
+      {
+        "name": "Los Más Nuevos",
+        "uri": null,
+        "type": 1,
+        "courses": [{
+            "courseId": 24,
+            "name": "Curso Android + Kotlin (Curso 2)",
+            "shortDescription": "Este curso tiene como objetivo trabajar con Android utilizando android studio y el lenguaje de programación kotlin.",
+            "categories": [{
+                "categoryId": 4,
+                "name": "Desarrollo Móvil",
+                "uri": "mobile",
+                "comingSoon": false,
+                "showInHome": true,
+                "active": true
+              },
+              {
+                "categoryId": 9,
+                "name": "Android",
+                "uri": "android",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": true
+              }
+            ],
+            "courseType": 3,
+            "level": 3,
+            "prelaunch": false,
+            "releaseDate": "2020-10-31T00:00:00",
+            "review": 3.4,
+            "image": "courses/curso-otro-card.svg",
+            "uri": "android-kotlin-2",
+            "duration": "00:07:00",
+            "style": {
+              "bgColor": "#282828",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": "2021-06-15T00:00:00",
+              "freeDtEnd": "2021-12-31T00:00:00"
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 0,
+              "colPrice": 193467.5,
+              "chiPrice": 0,
+              "mxPrice": 1000,
+              "peruPrice": null,
+              "argPrice": null,
+              "discountPercentage": 20
+            },
+            "totalViews": 2605585,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 4,
+              "email": "josedlujan@gmail.com",
+              "name": "José Dimas Luján",
+              "photo": "professors/profesor-ejemplo1.jpg"
+            }
+          },
+          {
+            "courseId": 25,
+            "name": "Curso Android + Kotlin (Curso 1)",
+            "shortDescription": "Este curso tiene como objetivo trabajar con Android utilizando android studio y con el lenguaje de programación kotlin.",
+            "categories": [{
+                "categoryId": 4,
+                "name": "Desarrollo Móvil",
+                "uri": "mobile",
+                "comingSoon": false,
+                "showInHome": true,
+                "active": true
+              },
+              {
+                "categoryId": 9,
+                "name": "Android",
+                "uri": "android",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": true
+              }
+            ],
+            "courseType": 0,
+            "level": 3,
+            "prelaunch": false,
+            "releaseDate": "2020-10-31T00:00:00",
+            "review": 0,
+            "image": "courses/curso-android-card.svg",
+            "uri": "android-kotlin-1",
+            "duration": "00:07:00",
+            "style": {
+              "bgColor": "#282828",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 50,
+              "colPrice": 193467.5,
+              "chiPrice": 38385,
+              "mxPrice": 1000,
+              "peruPrice": null,
+              "argPrice": null,
+              "discountPercentage": 0
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 4,
+              "email": "josedlujan@gmail.com",
+              "name": "José Dimas Luján",
+              "photo": "professors/profesor-ejemplo1.jpg"
+            }
+          },
+          {
+            "courseId": 1071,
+            "name": "Como crear cursos en Ockham Admin",
+            "shortDescription": "Curso para realizar pruebas.",
+            "categories": [{
+              "categoryId": 7,
+              "name": "Programación",
+              "uri": "programming",
+              "comingSoon": false,
+              "showInHome": false,
+              "active": true
+            }],
+            "courseType": 0,
+            "level": 1,
+            "prelaunch": false,
+            "releaseDate": "2021-02-28T00:00:00",
+            "review": 0,
+            "image": "courses/happy-face.png",
+            "uri": "crear-curso-ockham-admin",
+            "duration": "01:00:00",
+            "style": {
+              "bgColor": "#34495E",
+              "color": "#F2F2F2"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 10,
+              "colPrice": 0,
+              "chiPrice": 0,
+              "mxPrice": 100,
+              "peruPrice": 0,
+              "argPrice": 0,
+              "discountPercentage": 0
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 47,
+              "email": "email@hotmail.com",
+              "name": "Efron May Pech",
+              "photo": "professors/img-test.png"
+            }
+          },
+          {
+            "courseId": 1075,
+            "name": "Programación básica",
+            "shortDescription": "Entiende la programación, aprende que son los algoritmos, pseudocódigo, los diagramas y los principales conceptos.",
+            "categories": [{
+              "categoryId": 7,
+              "name": "Programación",
+              "uri": "programming",
+              "comingSoon": false,
+              "showInHome": false,
+              "active": true
+            }],
+            "courseType": 0,
+            "level": 1,
+            "prelaunch": false,
+            "releaseDate": "2021-02-22T00:00:00",
+            "review": 0,
+            "image": "courses/curso-programacion-basica.svg",
+            "uri": "programacion-basica",
+            "duration": "04:43:00",
+            "style": {
+              "bgColor": "#0F5EBC",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 15,
+              "colPrice": null,
+              "chiPrice": null,
+              "mxPrice": 300,
+              "peruPrice": null,
+              "argPrice": null,
+              "discountPercentage": 0
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 34,
+              "email": "josedlujan@gmail.com",
+              "name": "José Dimas Luján Castillo",
+              "photo": "professors/jose.jpeg"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Más Nuevos",
+        "uri": null,
+        "type": 1,
+        "courses": [{
+            "courseId": 1186,
+            "name": "HTML desde cero (Prelaunch)",
+            "shortDescription": "Curso desde cero de HTML",
+            "categories": [{
+                "categoryId": 1,
+                "name": "Desarrollo Web",
+                "uri": "web",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": false
+              },
+              {
+                "categoryId": 8,
+                "name": "Frontend",
+                "uri": "frontend",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": true
+              }
+            ],
+            "courseType": 0,
+            "level": 1,
+            "prelaunch": false,
+            "releaseDate": "2021-12-16T00:00:00",
+            "review": 0,
+            "image": "courses/android.svg",
+            "uri": "html-desde-cero",
+            "duration": "02:00:00",
+            "style": {
+              "bgColor": "#40349B",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 35,
+              "colPrice": 0,
+              "chiPrice": 0,
+              "mxPrice": 700,
+              "peruPrice": 0,
+              "argPrice": 0,
+              "discountPercentage": 50
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 47,
+              "email": "email@hotmail.com",
+              "name": "Efron May Pech",
+              "photo": "professors/img-test.png"
+            }
+          },
+          {
+            "courseId": 1187,
+            "name": "Bootstrap desde cero (Live)",
+            "shortDescription": "Curso para dar los primeros pasos con Bootstrap",
+            "categories": [{
+                "categoryId": 1,
+                "name": "Desarrollo Web",
+                "uri": "web",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": false
+              },
+              {
+                "categoryId": 8,
+                "name": "Frontend",
+                "uri": "frontend",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": true
+              }
+            ],
+            "courseType": 3,
+            "level": 1,
+            "prelaunch": false,
+            "releaseDate": "2021-10-30T00:00:00",
+            "review": 0,
+            "image": "courses/vue3.svg",
+            "uri": "bootstrap-desde-cero",
+            "duration": "02:00:00",
+            "style": {
+              "bgColor": "#013D63",
+              "color": "#9799A5"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 35,
+              "colPrice": 0,
+              "chiPrice": 0,
+              "mxPrice": 700,
+              "peruPrice": 0,
+              "argPrice": 0,
+              "discountPercentage": 50
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 35,
+              "email": "micorreo@gmail.com",
+              "name": "Juan Pérez",
+              "photo": "professors/img-test.png"
+            }
+          },
+          {
+            "courseId": 1179,
+            "name": "Curso Preventa",
+            "shortDescription": "Test course",
+            "categories": [{
+              "categoryId": 8,
+              "name": "Frontend",
+              "uri": "frontend",
+              "comingSoon": false,
+              "showInHome": false,
+              "active": true
+            }],
+            "courseType": 0,
+            "level": 2,
+            "prelaunch": false,
+            "releaseDate": "2021-10-19T00:00:00",
+            "review": 0,
+            "image": "courses/illustration-taller-google-asistens.svg",
+            "uri": "prelaunch-course",
+            "duration": "01:00:00",
+            "style": {
+              "bgColor": "#282828",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 100,
+              "colPrice": 0,
+              "chiPrice": 0,
+              "mxPrice": 1000,
+              "peruPrice": 0,
+              "argPrice": 0,
+              "discountPercentage": 0
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 47,
+              "email": "email@hotmail.com",
+              "name": "Efron May Pech",
+              "photo": "professors/img-test.png"
+            }
+          },
+          {
+            "courseId": 1185,
+            "name": "Primeros pasos Front End",
+            "shortDescription": "Curso donde se darán los fundamentos del desarrollo Frontend",
+            "categories": [{
+                "categoryId": 1,
+                "name": "Desarrollo Web",
+                "uri": "web",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": false
+              },
+              {
+                "categoryId": 8,
+                "name": "Frontend",
+                "uri": "frontend",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": true
+              },
+              {
+                "categoryId": 26,
+                "name": "Test",
+                "uri": "importancia-diseño-marca",
+                "comingSoon": true,
+                "showInHome": true,
+                "active": false
+              }
+            ],
+            "courseType": 0,
+            "level": 1,
+            "prelaunch": false,
+            "releaseDate": "2021-09-30T00:00:00",
+            "review": 0,
+            "image": "courses/Grupo2070.svg",
+            "uri": "frontend-primeros-pasos",
+            "duration": "01:00:00",
+            "style": {
+              "bgColor": "#282828",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 35,
+              "colPrice": 0,
+              "chiPrice": 0,
+              "mxPrice": 700,
+              "peruPrice": 0,
+              "argPrice": 0,
+              "discountPercentage": 50
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 34,
+              "email": "josedlujan@gmail.com",
+              "name": "José Dimas Luján Castillo",
+              "photo": "professors/jose.jpeg"
+            }
+          }
+        ]
+      },
+      {
+        "name": "Desarrollo Móvil",
+        "uri": "mobile",
+        "type": 0,
+        "courses": [{
+            "courseId": 24,
+            "name": "Curso Android + Kotlin (Curso 2)",
+            "shortDescription": "Este curso tiene como objetivo trabajar con Android utilizando android studio y el lenguaje de programación kotlin.",
+            "categories": [{
+                "categoryId": 4,
+                "name": "Desarrollo Móvil",
+                "uri": "mobile",
+                "comingSoon": false,
+                "showInHome": true,
+                "active": true
+              },
+              {
+                "categoryId": 9,
+                "name": "Android",
+                "uri": "android",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": true
+              }
+            ],
+            "courseType": 3,
+            "level": 3,
+            "prelaunch": false,
+            "releaseDate": "2020-10-31T00:00:00",
+            "review": 3.4,
+            "image": "courses/curso-otro-card.svg",
+            "uri": "android-kotlin-2",
+            "duration": "00:07:00",
+            "style": {
+              "bgColor": "#282828",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": "2021-06-15T00:00:00",
+              "freeDtEnd": "2021-12-31T00:00:00"
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 0,
+              "colPrice": 193467.5,
+              "chiPrice": 0,
+              "mxPrice": 1000,
+              "peruPrice": null,
+              "argPrice": null,
+              "discountPercentage": 20
+            },
+            "totalViews": 2605585,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 4,
+              "email": "josedlujan@gmail.com",
+              "name": "José Dimas Luján",
+              "photo": "professors/profesor-ejemplo1.jpg"
+            }
+          },
+          {
+            "courseId": 25,
+            "name": "Curso Android + Kotlin (Curso 1)",
+            "shortDescription": "Este curso tiene como objetivo trabajar con Android utilizando android studio y con el lenguaje de programación kotlin.",
+            "categories": [{
+                "categoryId": 4,
+                "name": "Desarrollo Móvil",
+                "uri": "mobile",
+                "comingSoon": false,
+                "showInHome": true,
+                "active": true
+              },
+              {
+                "categoryId": 9,
+                "name": "Android",
+                "uri": "android",
+                "comingSoon": false,
+                "showInHome": false,
+                "active": true
+              }
+            ],
+            "courseType": 0,
+            "level": 3,
+            "prelaunch": false,
+            "releaseDate": "2020-10-31T00:00:00",
+            "review": 0,
+            "image": "courses/curso-android-card.svg",
+            "uri": "android-kotlin-1",
+            "duration": "00:07:00",
+            "style": {
+              "bgColor": "#282828",
+              "color": "#FFFFFF"
+            },
+            "config": {
+              "isFree": false,
+              "freeDtStart": null,
+              "freeDtEnd": null
+            },
+            "isBought": false,
+            "isFavorite": false,
+            "active": true,
+            "price": {
+              "dlsPrice": 50,
+              "colPrice": 193467.5,
+              "chiPrice": 38385,
+              "mxPrice": 1000,
+              "peruPrice": null,
+              "argPrice": null,
+              "discountPercentage": 0
+            },
+            "totalViews": 0,
+            "progressPercentage": 0,
+            "professorA": {
+              "professorId": 4,
+              "email": "josedlujan@gmail.com",
+              "name": "José Dimas Luján",
+              "photo": "professors/profesor-ejemplo1.jpg"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  "error": []
+}

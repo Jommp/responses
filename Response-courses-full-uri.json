@@ -1,0 +1,533 @@
+Response de: /courses/full/programacion-basica
+
+{
+  "status": "Ok",
+  "data": {
+    "general": {
+      "courseId": 1075,
+      "name": "Programación básica",
+      "shortDescription": "Entiende la programación, aprende que son los algoritmos, pseudocódigo, los diagramas y los principales conceptos.",
+      "categories": [{
+        "categoryId": 7,
+        "name": "Programación",
+        "uri": "programming",
+        "comingSoon": false,
+        "showInHome": false,
+        "active": false
+      }],
+      "courseType": 0,
+      "level": 1,
+      "prelaunch": false,
+      "releaseDate": "2021-02-22T00:00:00",
+      "review": 0,
+      "image": "courses/curso-programacion-basica.svg",
+      "uri": "programacion-basica",
+      "duration": "04:43:00",
+      "style": {
+        "bgColor": "#0F5EBC",
+        "color": "#FFFFFF"
+      },
+      "config": {
+        "isFree": false,
+        "freeDtStart": null,
+        "freeDtEnd": null
+      },
+      "isBought": false,
+      "isFavorite": false,
+      "active": true,
+      "price": {
+        "dlsPrice": 15,
+        "colPrice": null,
+        "chiPrice": null,
+        "mxPrice": 300,
+        "peruPrice": null,
+        "argPrice": null,
+        "discountPercentage": 0
+      },
+      "totalViews": 0,
+      "progressPercentage": 0,
+      "professorA": {
+        "professorId": 34,
+        "email": "josedlujan@gmail.com",
+        "name": "José Dimas Luján Castillo",
+        "photo": "professors/jose.jpeg"
+      }
+    },
+    "detail": {
+      "courseId": 1075,
+      "progressPercentage": 0,
+      "coursePurchased": false,
+      "name": "Programación básica",
+      "description": "Este curso tiene como objetivo que el estudiante se inicie en la programación desde cero y pueda entender los principales conceptos, además se busca despejar las principales dudas que son las que inicia cualquier persona sin conocimientos previos.\n\nSe aborda desde las bases de algoritmos, pseudo código, diagramas de flujo  y se van reafirmando los conocimientos con ejercicios que se desarrollar por cada módulo.\n\nSe enseñaran los conocimientos base de la programación como lo son: Variables, constantes, operadores, condicionales, ciclos y funciones.  Se acompaña esto de explicaciones y ejemplos que se van realizando junto con el docente para entender la lógica de lo que se va plasmando. \n\nPara finalizar el curso lo que se ve son un apartado con dudas generales de conceptos o elementos relacionados a la programación y finalmente se comparte al estudiante código en los lenguajes de programación python y java para que conozca como es que se ven las bases que aprendió ya aplicadas a un lenguaje de programación especifico.",
+      "objectives": null,
+      "learning": "<ul>\n<li>Algoritmos</li>\n<li>Pseudo código</li>\n<li>Diagramas de flujo</li>\n<li>Variables</li>\n<li>Constantes</li>\n<li>Operadores relaciones y lógicos</li>\n<li>Operadores aritméticos</li>\n<li>Condicionales</li>\n<li>For, While, Do while</li>\n<li>Funciones</li>\n<li>Ejemplos en python y java</li>\n</ul>",
+      "previousKnowledge": "<ul>\n<li>Sin conocimientos previos específicos</li>\n<li>Encender la computadora</li>\n<li>Manejo básico de la computadora </li>\n</ul>",
+      "whyLearn": null,
+      "uri": "programacion-basica",
+      "introductionVideo": "https://vimeo.com/511349374",
+      "certificateFolio": null,
+      "testCertificateFolio": null,
+      "socialMediaImgSrc": "courses/curso-programacion-basica-redes.svg",
+      "resources": [],
+      "includes": {
+        "lifeTimeAccess": false,
+        "updates": false,
+        "downloadableResources": null,
+        "certificate": true,
+        "hasCertificationTest": true
+      },
+      "professorA": {
+        "title": "Developer",
+        "biography": "Developer, Teacher and Writer",
+        "nationality": "MEX",
+        "professorId": 34,
+        "email": "josedlujan@gmail.com",
+        "name": "José Dimas Luján Castillo",
+        "photo": "professors/jose.jpeg"
+      },
+      "professorB": null,
+      "professorC": null
+    },
+    "modules": [
+      {
+        "moduleId": 2066,
+        "courseId": 1075,
+        "moduleName": "Presentación del curso e introducción",
+        "order": 1,
+        "moduleDescription": "En este módulo el estudiante conocerá el curso de \"programación básica\" y le explicaremos los principales elementos que tiene que conocer sobre lo que significa la programación.",
+        "active": true,
+        "lessons": [{
+            "lessonId": 2101,
+            "lessonName": "¿Qué esperar del curso?",
+            "lessonUri": "que-haremos-en-el-ultimo-modulo",
+            "videoUrl": "https://player.vimeo.com/video/511349374",
+            "duration": "06:09",
+            "durationTime": "00:06:09",
+            "active": true,
+            "order": 1,
+            "showForFree": true,
+            "completed": false
+          },
+          {
+            "lessonId": 2102,
+            "lessonName": "Conocimientos previos para tomar el curso",
+            "lessonUri": "conocimientos-previos-para-tomar-el-curso",
+            "videoUrl": "https://player.vimeo.com/video/511349735",
+            "duration": "04:56",
+            "durationTime": "00:04:56",
+            "active": true,
+            "order": 2,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2103,
+            "lessonName": "¿Cómo se programa en una computadora?",
+            "lessonUri": "como-se-programa-en-una-computadora",
+            "videoUrl": "https://player.vimeo.com/video/511350098",
+            "duration": "08:42",
+            "durationTime": "00:08:42",
+            "active": true,
+            "order": 3,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2104,
+            "lessonName": "¿Qué es la programación?",
+            "lessonUri": "que-es-la-programacion",
+            "videoUrl": "https://player.vimeo.com/video/511350743",
+            "duration": "09:34",
+            "durationTime": "00:09:34",
+            "active": true,
+            "order": 4,
+            "showForFree": false,
+            "completed": false
+          }
+        ]
+      },
+      {
+        "moduleId": 2068,
+        "courseId": 1075,
+        "moduleName": "Introducción a la programación",
+        "order": 2,
+        "moduleDescription": "Adentramos al estudiante a los conceptos de la programación para analizar como funcionan y los puntos importantes que debemos de conocer.",
+        "active": true,
+        "lessons": [{
+            "lessonId": 2099,
+            "lessonName": "Variables y constantes",
+            "lessonUri": "variables-y-constantes",
+            "videoUrl": "https://player.vimeo.com/video/511355829",
+            "duration": "13:12",
+            "durationTime": "00:13:12",
+            "active": true,
+            "order": 5,
+            "showForFree": true,
+            "completed": false
+          },
+          {
+            "lessonId": 2110,
+            "lessonName": "Variables en los lenguajes de programación",
+            "lessonUri": "variables-lenguajes-de-programacion",
+            "videoUrl": "https://player.vimeo.com/video/511356659",
+            "duration": "05:13",
+            "durationTime": "00:05:13",
+            "active": true,
+            "order": 6,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2111,
+            "lessonName": "Operadores relacionales y lógicos",
+            "lessonUri": "operadores-relacionales-logicos",
+            "videoUrl": "https://player.vimeo.com/video/511357014",
+            "duration": "06:39",
+            "durationTime": "00:06:39",
+            "active": true,
+            "order": 7,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2112,
+            "lessonName": "Operadores aritméticos ",
+            "lessonUri": "operadores-aritmeticos",
+            "videoUrl": "https://player.vimeo.com/video/511357454",
+            "duration": "04:14",
+            "durationTime": "00:04:14",
+            "active": true,
+            "order": 8,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2113,
+            "lessonName": "Condicionales",
+            "lessonUri": "condicionales",
+            "videoUrl": "https://player.vimeo.com/video/511357703",
+            "duration": "15:54",
+            "durationTime": "00:15:54",
+            "active": true,
+            "order": 9,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2114,
+            "lessonName": "Ciclo For",
+            "lessonUri": "ciclo-for",
+            "videoUrl": "https://player.vimeo.com/video/511358750",
+            "duration": "08:33",
+            "durationTime": "00:08:33",
+            "active": true,
+            "order": 10,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2115,
+            "lessonName": "Ciclo While",
+            "lessonUri": "ciclo-while",
+            "videoUrl": "https://player.vimeo.com/video/511359362",
+            "duration": "04:23",
+            "durationTime": "00:04:23",
+            "active": true,
+            "order": 11,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2116,
+            "lessonName": "Ciclo Do While",
+            "lessonUri": "ciclo-do-while",
+            "videoUrl": "https://player.vimeo.com/video/511359737",
+            "duration": "04:25",
+            "durationTime": "00:04:25",
+            "active": true,
+            "order": 12,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2117,
+            "lessonName": "Diagramas de flujo",
+            "lessonUri": "diagramas-de-flujo",
+            "videoUrl": "https://player.vimeo.com/video/511360070",
+            "duration": "16:23",
+            "durationTime": "00:16:23",
+            "active": true,
+            "order": 13,
+            "showForFree": false,
+            "completed": false
+          }
+        ]
+      },
+      {
+        "moduleId": 2069,
+        "courseId": 1075,
+        "moduleName": "Funciones",
+        "order": 3,
+        "moduleDescription": "Hablaremos sobre lo que es una función en la programación y como podemos crear las nuestras para utilizarlas en nuestro código",
+        "active": true,
+        "lessons": [{
+            "lessonId": 2118,
+            "lessonName": "Utilizar funciones",
+            "lessonUri": "funciones",
+            "videoUrl": "https://player.vimeo.com/video/511361315",
+            "duration": "10:51",
+            "durationTime": "00:10:51",
+            "active": true,
+            "order": 14,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2119,
+            "lessonName": "Funciones que reciben datos",
+            "lessonUri": "funciones-que-reciben-datos",
+            "videoUrl": "https://player.vimeo.com/video/511362072",
+            "duration": "05:58",
+            "durationTime": "00:05:58",
+            "active": true,
+            "order": 15,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2120,
+            "lessonName": "Funciones que regresan valores",
+            "lessonUri": "funciones-que-regresan-valores",
+            "videoUrl": "https://player.vimeo.com/video/511362465",
+            "duration": "08:04",
+            "durationTime": "00:08:04",
+            "active": true,
+            "order": 16,
+            "showForFree": false,
+            "completed": false
+          }
+        ]
+      },
+      {
+        "moduleId": 2070,
+        "courseId": 1075,
+        "moduleName": "Más información de la programación",
+        "order": 4,
+        "moduleDescription": "Vamos a hablar de varios conceptos que una persona que se esta iniciando debe de conocer para despejar las dudas habituales que se tienen",
+        "active": true,
+        "lessons": [{
+            "lessonId": 2121,
+            "lessonName": "Programación de bajo y alto nivel",
+            "lessonUri": "programacion-de-bajo-y-alto-nivel",
+            "videoUrl": "https://player.vimeo.com/video/511363010",
+            "duration": "05:53",
+            "durationTime": "00:05:53",
+            "active": true,
+            "order": 17,
+            "showForFree": true,
+            "completed": false
+          },
+          {
+            "lessonId": 2122,
+            "lessonName": "Paradigmas de programación",
+            "lessonUri": "paradigmas-de-programacion",
+            "videoUrl": "https://player.vimeo.com/video/511363439",
+            "duration": "12:48",
+            "durationTime": "00:12:48",
+            "active": true,
+            "order": 18,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2123,
+            "lessonName": "Lenguajes fuertemente y debilmente tipados",
+            "lessonUri": "lenguajes-fuertemente-debilmente-tipados",
+            "videoUrl": "https://player.vimeo.com/video/511364233",
+            "duration": "12:03",
+            "durationTime": "00:12:03",
+            "active": true,
+            "order": 19,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2124,
+            "lessonName": "Compiladores e interpretes",
+            "lessonUri": "compiladores-interpretes",
+            "videoUrl": "https://player.vimeo.com/video/511386594",
+            "duration": "09:25",
+            "durationTime": "00:09:25",
+            "active": true,
+            "order": 20,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2125,
+            "lessonName": "Editores de texto e IDE's de desarrollo",
+            "lessonUri": "editores-de-texto-e-ides",
+            "videoUrl": "https://player.vimeo.com/video/511385815",
+            "duration": "08:35",
+            "durationTime": "00:08:35",
+            "active": true,
+            "order": 21,
+            "showForFree": false,
+            "completed": false
+          }
+        ]
+      },
+      {
+        "moduleId": 2071,
+        "courseId": 1075,
+        "moduleName": "Vistazo a la practica y fin de curso",
+        "order": 5,
+        "moduleDescription": "Nos despedimos del estudiante mostrando ejemplo con Python y Java sobre lo que ya vimos en este curso demostrando la utilidad de lo que vimos en el curso",
+        "active": true,
+        "lessons": [{
+            "lessonId": 2126,
+            "lessonName": "¿Qué haremos en este módulo?",
+            "lessonUri": "que-haremos-en-este-modulo",
+            "videoUrl": "https://player.vimeo.com/video/511395074",
+            "duration": "03:06",
+            "durationTime": "00:03:06",
+            "active": true,
+            "order": 22,
+            "showForFree": true,
+            "completed": false
+          },
+          {
+            "lessonId": 2127,
+            "lessonName": "Variables",
+            "lessonUri": "variables-python-java",
+            "videoUrl": "https://player.vimeo.com/video/511415274",
+            "duration": "04:14",
+            "durationTime": "00:04:14",
+            "active": true,
+            "order": 23,
+            "showForFree": true,
+            "completed": false
+          },
+          {
+            "lessonId": 2128,
+            "lessonName": "For",
+            "lessonUri": "for-java-python",
+            "videoUrl": "https://player.vimeo.com/video/511415805",
+            "duration": "04:01",
+            "durationTime": "00:04:01",
+            "active": true,
+            "order": 24,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2129,
+            "lessonName": "While",
+            "lessonUri": "while-python-java",
+            "videoUrl": "https://player.vimeo.com/video/511415700",
+            "duration": "03:24",
+            "durationTime": "00:03:24",
+            "active": true,
+            "order": 25,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2130,
+            "lessonName": "Funciones",
+            "lessonUri": "funciones-python-java",
+            "videoUrl": "https://player.vimeo.com/video/511416341",
+            "duration": "04:09",
+            "durationTime": "00:04:09",
+            "active": true,
+            "order": 26,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2131,
+            "lessonName": "Continuar tu aprendizaje y despedida",
+            "lessonUri": "continuar-su-aprendizaje-despedida",
+            "videoUrl": "https://player.vimeo.com/video/511416765",
+            "duration": "06:12",
+            "durationTime": "00:06:12",
+            "active": true,
+            "order": 27,
+            "showForFree": false,
+            "completed": false
+          }
+        ]
+      },
+      {
+        "moduleId": 2067,
+        "courseId": 1075,
+        "moduleName": "Algoritmos",
+        "order": 6,
+        "moduleDescription": "En este módulo explicaremos lo que es un algoritmo al estudiante y analizaremos lo que esto involucra en nuestra manera de pensar",
+        "active": true,
+        "lessons": [{
+            "lessonId": 2106,
+            "lessonName": "¿Qué es un Algoritmo?",
+            "lessonUri": "que-es-un-algoritmo",
+            "videoUrl": "https://player.vimeo.com/video/511352238",
+            "duration": "11:11",
+            "durationTime": "00:11:11",
+            "active": true,
+            "order": 28,
+            "showForFree": true,
+            "completed": false
+          },
+          {
+            "lessonId": 2107,
+            "lessonName": "Pseudo código",
+            "lessonUri": "pseudo-codigo",
+            "videoUrl": "https://player.vimeo.com/video/511353043",
+            "duration": "16:39",
+            "durationTime": "00:16:39",
+            "active": true,
+            "order": 29,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2108,
+            "lessonName": "Entradas y salidas",
+            "lessonUri": "entradas-salidas",
+            "videoUrl": "https://player.vimeo.com/video/511354129",
+            "duration": "10:14",
+            "durationTime": "00:10:14",
+            "active": true,
+            "order": 30,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2109,
+            "lessonName": "Ejemplo para practicar",
+            "lessonUri": "ejemplo-para-practicar",
+            "videoUrl": "https://player.vimeo.com/video/511354821",
+            "duration": "15:16",
+            "durationTime": "00:15:16",
+            "active": true,
+            "order": 31,
+            "showForFree": false,
+            "completed": false
+          },
+          {
+            "lessonId": 2105,
+            "lessonName": "Todo es lógica",
+            "lessonUri": "todo-es-logica",
+            "videoUrl": "https://player.vimeo.com/video/511351412",
+            "duration": "13:16",
+            "durationTime": "00:13:16",
+            "active": true,
+            "order": 32,
+            "showForFree": false,
+            "completed": false
+          }
+        ]
+      }
+    ]
+  },
+  "error": []
+}
